@@ -1,0 +1,257 @@
+body {
+  font-family: 'Montserrat'sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Ubuntu' !important;
+  color: #00818a !important;
+  /* color: #d34848; */
+  /* color: #f0a500; */
+  font-size: 2.5rem !important;
+  line-height: 1.2 !important;
+  font-weight: bold !important;
+}
+
+hr {
+  visibility: hidden;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+ul {
+  color: #797a7e;
+  font-size: 1.1rem;
+  padding: inherit;
+}
+
+/* container fluid common to all */
+.container-fluid {
+  padding: 8% 12%;
+}
+
+/* Coloured sections */
+.colored-section {
+  color: #eeeeee;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* title img */
+.top {
+  padding: 0px;
+  background-image: url('hero4.jpg');
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  width: 100%;
+  height: 50vh;
+  align-items: flex-end;
+}
+
+/* Navbar */
+.navbar {
+  align-items: flex-end;
+  width: 100%;
+  /* background-color: #1a1c20; */
+}
+
+.navbar-brand {
+  width: 3%;
+  height: auto;
+}
+
+.navbar-nav {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 0 11px;
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+ .nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(255, 160, 184);
+}
+
+/* About Us */
+.testimonial-block-vertical {
+  background-color: rgb(246, 218, 99, 0.9);
+/* background-color: #ffbb91; */
+}
+
+.testimonial-block-vertical-quote {
+  margin: 30px;
+  background: rgba(23, 121, 186, 0.25);
+  padding: 1rem;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 #52575d, 0 1px 8px 0 #52575d !important;
+  margin-bottom: 1.875rem;
+  position: relative;
+}
+
+.testimonial-block-vertical-quote p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.testimonial-block-vertical-quote::after {
+  content: '';
+  bottom: -1.25rem;
+  left: 2.25rem;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 1.25rem 1.125rem 0 1.125rem;
+  /* border-color: rgba(23, 121, 186, 0.75) transparent transparent transparent; */
+  border-color: #52575d transparent transparent transparent;
+  position: absolute;
+}
+
+.testimonial-block-vertical-person {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1.65rem;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.testimonial-block-vertical-avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.testimonial-block-vertical-name {
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 0.65rem;
+  font-family: 'Ubuntu' !important;
+  color: #00818a !important;
+  /* color: #d34848; */
+  /* color: #f0a500; */
+  font-size: 1.8rem !important;
+  line-height: 0.8rem !important;
+  font-weight: bold !important;
+}
+
+.testimonial-block-vertical-info {
+  text-transform: uppercase;
+  font-size: 18px;
+  /* color: #8a8a8a; */
+  color: #393e46 !important;
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-left: 0.65rem;
+}
+
+/* Cards */
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* box-shadow: 0 4px 8px 0 #222831, 0 6px 20px 0 #222831; */
+  box-shadow: 0 4px 8px 0 #52575d, 0 6px 15px 0 #52575d;
+}
+
+.card-outer {
+  background-image: url(bg-trial.jpeg);
+  background-size: cover;
+}
+
+/* Club section */
+.club-list {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  padding: 2% 3%;
+}
+
+.tech-img {
+  width: 100%;
+  float: left;
+  padding: 0rem;
+}
+
+.cul-img {
+  width: 100%;
+  float: right;
+  padding: 0rem;
+}
+
+.tech-list {
+  overflow-y: scroll;
+  height: 40%;
+}
+
+/* scrollbar classes */
+.scrollbar-custom {
+  position: relative;
+  overflow-y: scroll;
+  height: 250px;
+}
+
+.scrollbar-dusty-grass::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.scrollbar-dusty-grass::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(330deg, #49beb7 0%, #1d2d50 100%);
+  background-image: linear-gradient(120deg, #49beb7 0%, #1d2d50 100%);
+}
+
+.thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* footer section */
+.icon-footer {
+  padding: 1% 2%;
+  font-size: 1.5rem;
+}
+
+.copyright-msg {
+  color: #eeeeee;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #ffcd60;
+}
+
+#footer {
+  background-color: #00818a;
+  /* background-color: #133b5c; */
+  /* background-color: #d34848; */
+  /* background-color: #f0a500; */
+}
+/* Aajge mumma aabar aamake chappal diye mereche. It has become so common now. BHalo to ekdom bashe hi na upar se erukom.
+That too because mumma boleche kaaj korte and i said ami korbona amar padhayi aache. orpore mumma is like toke korte hobe hi. ekbaar o erukom bolena that thikache i understand tor podhayi ache. understand toh kore hi na plus aaga and mumma ekdom team up kore naaye against me. amaar aar bhalo laage na. If i've had a sister toh she would be there for me lekin akhun keyo neyi and ami konodin mumma aaga ke eta bol le o they dont understand. Ekdom they never understand. and she only loves aaga. Kokhuno she doesnt love me. shudho agaa shonge bhalo kore kotha bole. konodin amar shonge bhalo kore ektu aador o korena. Amaar ekdom bhalo laagena. Shudho kaaj gina te thaake. Or pore shobai ke bole ki o kichu kore na ektu kaaj korte or problem hoye eyijonno maari.
+[7:35 PM, 9/13/2020] Sajjita: they never understand how i feel mentally to say anything if i do
+[7:35 PM, 9/13/2020] Sajjita: ami ki korbo */
