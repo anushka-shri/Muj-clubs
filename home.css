@@ -292,7 +292,11 @@ ul {
 }
 
 #footer {
-   background-image: -moz-linear-gradient(top, #00818a, #07b061da);
+   background-image: -moz-linear-gradient(top, #00818a, #07b061dc);
+   background-image: -webkit-linear-gradient(top, #186d74, #10ac63);
+   background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
+   background-image: -o-linear-gradient(top, #00818a, #07b061e5);
+
   /* background-color: #00818a; */
   /* background-color: #133b5c; */
   /* background-color: #d34848; */
