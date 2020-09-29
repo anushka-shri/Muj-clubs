@@ -63,7 +63,7 @@ ul {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.85);
+  background-color: rgba(26, 28, 32, 0.80);
   /* background-color: rgba(255,250,103,0.2); */
     /* background-color: rgba(246, 218, 99, 0.25); */
     /* background-color: rgba(236,155,59,0.2); */
@@ -82,16 +82,16 @@ ul {
 .nav-item {
   padding: 0 11px;
   margin-top: 0px;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 550;
+  font-size: 1.7rem;
 }
 
  .nav-link {
-  color: white;
+  color: rgba(255, 255, 255, 0.877) !important;
 }
 
 .nav-link:hover {
-  color: rgb(255, 160, 184);
+  color: rgba(255, 160, 184, 0.808) !important;
 }
 
 /* About Us */
@@ -213,7 +213,7 @@ ul {
 }
 
 .scrollbar-dusty-grass::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-color: #F5F5F5;
   border-radius: 10px;
 }
@@ -225,8 +225,11 @@ ul {
 
 .scrollbar-dusty-grass::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-image: -webkit-linear-gradient(330deg, #49beb7 0%, #1d2d50 100%);
+  background-image: -moz-linear-gradient(330deg, #49beb7 0%, #1d2d50 100%);
+  background-image: -ms-linear-gradient(330deg, #49beb7 0%, #1d2d50 100%);
+  background-image: -o-linear-gradient(330deg, #49beb7 0%, #1d2d50 100%);
   background-image: linear-gradient(120deg, #49beb7 0%, #1d2d50 100%);
 }
 
@@ -273,7 +276,7 @@ ul {
 /* footer section */
 .icon-footer {
   padding: 1% 2%;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 
 .copyright-msg {
@@ -289,12 +292,9 @@ ul {
 }
 
 #footer {
-  background-color: #00818a;
+   background-image: -moz-linear-gradient(top, #00818a, #07b061da);
+  /* background-color: #00818a; */
   /* background-color: #133b5c; */
   /* background-color: #d34848; */
   /* background-color: #f0a500; */
 }
-/* Aajge mumma aabar aamake chappal diye mereche. It has become so common now. BHalo to ekdom bashe hi na upar se erukom.
-That too because mumma boleche kaaj korte and i said ami korbona amar padhayi aache. orpore mumma is like toke korte hobe hi. ekbaar o erukom bolena that thikache i understand tor podhayi ache. understand toh kore hi na plus aaga and mumma ekdom team up kore naaye against me. amaar aar bhalo laage na. If i've had a sister toh she would be there for me lekin akhun keyo neyi and ami konodin mumma aaga ke eta bol le o they dont understand. Ekdom they never understand. and she only loves aaga. Kokhuno she doesnt love me. shudho agaa shonge bhalo kore kotha bole. konodin amar shonge bhalo kore ektu aador o korena. Amaar ekdom bhalo laagena. Shudho kaaj gina te thaake. Or pore shobai ke bole ki o kichu kore na ektu kaaj korte or problem hoye eyijonno maari.
-[7:35 PM, 9/13/2020] Sajjita: they never understand how i feel mentally to say anything if i do
-[7:35 PM, 9/13/2020] Sajjita: ami ki korbo */
