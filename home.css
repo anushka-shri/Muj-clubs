@@ -6,8 +6,6 @@ body {
 h3 {
   font-family: 'Ubuntu' !important;
   color: #00818a !important;
-  /* color: #d34848; */
-  /* color: #f0a500; */
   font-size: 2.5rem !important;
   line-height: 1.2 !important;
   font-weight: bold !important;
@@ -64,9 +62,6 @@ ul {
   position: absolute;
   z-index: 2;
   background-color: rgba(26, 28, 32, 0.80);
-  /* background-color: rgba(255,250,103,0.2); */
-    /* background-color: rgba(246, 218, 99, 0.25); */
-    /* background-color: rgba(236,155,59,0.2); */
 }
 
 .navbar-brand {
@@ -93,6 +88,7 @@ ul {
 .nav-link:hover {
   color: rgba(255, 160, 184, 0.808) !important;
 }
+/* Navbar */
 
 /* About Us */
 .testimonial-block-vertical {
@@ -123,7 +119,7 @@ ul {
   height: 0px;
   border-style: solid;
   border-width: 1.25rem 1.125rem 0 1.125rem;
-  /* border-color: rgba(23, 121, 186, 0.75) transparent transparent transparent; */
+  
   border-color: #52575d transparent transparent transparent;
   position: absolute;
 }
@@ -145,14 +141,12 @@ ul {
 }
 
 .testimonial-block-vertical-name {
-  /* text-transform: uppercase; */
+  
   font-weight: 600;
   margin-bottom: 0;
   margin-left: 0.65rem;
   font-family: 'Ubuntu' !important;
   color: #00818a !important;
-  /* color: #d34848; */
-  /* color: #f0a500; */
   font-size: 1.8rem !important;
   line-height: 0.8rem !important;
   font-weight: bold !important;
@@ -161,24 +155,24 @@ ul {
 .testimonial-block-vertical-info {
   text-transform: uppercase;
   font-size: 18px;
-  /* color: #8a8a8a; */
   color: #393e46 !important;
   margin-bottom: 0;
   font-weight: bold;
   margin-left: 0.65rem;
 }
+/* About Us */
 
 /* Cards */
 .card {
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  /* box-shadow: 0 4px 8px 0 #222831, 0 6px 20px 0 #222831; */
-  box-shadow: 0 4px 8px 0 #52575d, 0 6px 15px 0 #52575d;
+  -shadow: 0 4px 8px 0 #52575d, 0 6px 15px 0 #52575d;
 }
 
 .card-outer {
   background-image: url(bg-trial.jpeg);
   background-size: cover;
 }
+
+/* Cards */
 
 /* Club section */
 .club-list {
@@ -204,6 +198,7 @@ ul {
   overflow-y: scroll;
   height: 40%;
 }
+/* Club section */
 
 /* scrollbar classes */
 .scrollbar-custom {
@@ -237,6 +232,8 @@ ul {
   width: 6px;
 }
 
+/* scrollbar classes */
+
 /* Button */
 
 
@@ -247,24 +244,24 @@ ul {
   font-weight: 500;
   color: #fff;
   font-size: 28px;
+    
  
     text-align: center;
 }
 
 .btn-hover {
-    width: 200px;
-    font-size: 16px;
+    width: 220px;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
     margin: 20px;
-    height: 55px;
+    height: 57px;
     text-align:center;
+     border-radius: 11px;
     border: none;
     background-size: 300% 100%;
-    
-
-  border-radius: 11px;
+ 
   
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -288,6 +285,9 @@ ul {
     background-image: linear-gradient(to right,  #05767e, #1eb7c2,#0db2bb, #e7ee1b);
     box-shadow: 0 4px 15px 0 #00818a;
 }
+
+/* Button */ 
+
 
 /* .btn {
   margin-top: 110px;
@@ -347,8 +347,5 @@ ul {
    background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
    background-image: -o-linear-gradient(top, #00818a, #07b061e5);
 
-  /* background-color: #00818a; */
-  /* background-color: #133b5c; */
-  /* background-color: #d34848; */
-  /* background-color: #f0a500; */
 }
+/* footer section */
