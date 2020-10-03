@@ -282,9 +282,19 @@ ul {
 }
 
 .btn-hover.color-6 {
-    background-image: linear-gradient(to right,  #05767e, #1eb7c2,#0db2bb, #e7ee1b);
+    background-image: linear-gradient(to right,  #00918a, #1ac1ca,#0b8a84, #4cc42e);
     box-shadow: 0 4px 15px 0 #00818a;
 }
+
+.mujclubs{
+  text-decoration: none;
+  color: #fff;
+}
+.mujclubs:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 /* Button */ 
 
