@@ -80,7 +80,18 @@ h3 {
 
 .nav-link:hover {
   color: rgb(173, 173, 173) !important;
+
+ 
 }
+
+ .big-heading {
+  font-family: "Ubuntu";
+  font-size: 3.2rem;
+  padding-top: 5%;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
 /* Navbar */
 
 
