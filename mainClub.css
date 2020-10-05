@@ -145,6 +145,10 @@ svg {
 /* Club heading */
 
 /* Club Images */
+.grid-background{
+   background-color: rgba(216, 192, 192, 0.719);
+}
+
 .grid {
   display: grid;
   grid-template-rows: 
@@ -208,6 +212,7 @@ svg {
 .grid {
   margin:20px auto;
   max-width:70vw;
+     
 }
 
 .grid > .item {
