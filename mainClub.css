@@ -95,6 +95,63 @@ h3 {
 /* Navbar */
 
 /* Club heading */
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #000000c0;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke: #ffffff;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: #ddeb25;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: #000000;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke: #e9fd31;
+    animation-delay: -5s;
+}
+
+.text-copy:nth-child(6){
+    stroke: #ffffff;
+    animation-delay: -6s;
+}
+
+.text-copy:nth-child(7){
+    stroke: #000000;
+    animation-delay: -7s;
+}
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+
+
+
 
 
 
