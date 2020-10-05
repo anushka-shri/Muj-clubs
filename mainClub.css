@@ -37,15 +37,7 @@ h3 {
   background-color: #0f3057
 }
 
-.c-sec{
-  text-decoration: none;
-  color:white;
-}
 
-.c-sec:hover{
-  text-decoration: none;
-  color:white;
-}
 
 
 /* Navbar */
@@ -79,7 +71,7 @@ h3 {
 }
 
 .nav-link:hover {
-  color: rgb(173, 173, 173) !important;
+  color: rgb(189, 189, 189) !important;
 
  
 }
@@ -150,9 +142,11 @@ svg {
     100% {stroke-dashoffset: -35%;}
 }
 
+/* Club heading */
 
+/* Club Images */
 
-
+/* Club Images */
 
 
 /* footer section */
