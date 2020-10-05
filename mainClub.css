@@ -148,7 +148,7 @@ svg {
 .grid {
   display: grid;
   grid-template-rows: 
-    repeat(4, 180px);
+    repeat(4, 150px);
   grid-template-columns: 
     repeat(3, 1fr);
   grid-gap: 5px;
@@ -207,7 +207,7 @@ svg {
 
 .grid {
   margin:20px auto;
-  max-width:1000px;
+  max-width:70vw;
 }
 
 .grid > .item {
