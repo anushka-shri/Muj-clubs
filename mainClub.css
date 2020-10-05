@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
+
   /* -webkit-box-sizing: border-box; */
   /* box-sizing: border-box; */
 }
@@ -146,7 +147,7 @@ svg {
 
 /* Club Images */
 .grid-background{
-   background-color: rgba(216, 192, 192, 0.719);
+     background-image: -moz-linear-gradient(top, #d89dac, #dda5a5dc);
 }
 
 .grid {
