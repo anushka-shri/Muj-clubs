@@ -256,7 +256,7 @@ h3 {
 .loading span {
   position:relative;
   z-index:999;
-  color:rgba(15, 1, 1, 0.651);
+  color:rgb(12, 12, 12);
 }
 .loading:before {
   content:'';
