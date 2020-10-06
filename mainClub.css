@@ -310,7 +310,7 @@ h3 {
 .grid {
   display: grid;
   grid-template-rows: 
-    repeat(3, 170px);
+    repeat(4, 170px);
   grid-template-columns: 
     repeat(3, 1fr);
   grid-gap: 5px;
