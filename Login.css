@@ -1,5 +1,44 @@
 
 
+/* Navbar */
+
+.navbar {
+  align-items: flex-end;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(26, 28, 32, 0.80);
+ 
+}
+
+.navbar-brand {
+  width: 3%;
+  height: auto;
+}
+
+.navbar-nav {
+  margin-right: 10px;
+  margin-left: auto;
+
+}
+
+.nav-item {
+  padding: 0 11px;
+  margin-top: 0px;
+  font-weight: 550;
+  font-size: 1.7rem;
+}
+
+ .nav-link {
+  color: rgba(255, 255, 255, 0.877) !important;
+}
+
+.nav-link:hover {
+  color: rgba(255, 160, 184, 0.808) !important;
+}
+/* Navbar */
+
+/* Login Box */
 
 .box {
   position: relative;
@@ -13,7 +52,7 @@
   transform: scale(1);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  z-index: 5;
+  z-index: 2;
 }
 .box.back {
   transform: scale(0.95);
@@ -389,3 +428,5 @@ html {
   list-style-type: none;
   outline: none;
 }
+
+/* login Box */
