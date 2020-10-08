@@ -298,6 +298,93 @@ ul {
 
 /* Button */ 
 
+/* Arrow button */
+
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+/* body {
+  background: #333;
+  font-family: 'Lato', sans-serif;
+} */
+.arrow {
+  position: absolute;
+  top: 320%;
+  left: 90%;
+  margin-top: -30px;
+  margin-left: -60px;
+  display: inline-block;
+  font-size: 26px;
+  color: #000000;
+  text-align: center;
+  width: 120px;
+  height: 60px;
+  line-height: 60px;
+  border: 5px solid #000000;
+  overflow: hidden;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+.arrow:hover, .arrow.auto {
+  width: 60px;
+  margin-left: -30px;
+  border-radius: 40px;
+
+  color: rgba(179, 195, 58, 0);
+  transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
+}
+.arrow:hover:before, .arrow.auto:before {
+  animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+}
+.arrow:hover:after, .arrow.auto:after {
+  animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+}
+.arrow:before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  
+  background: #000000;
+  width: 5px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -3px;
+  transform: translateY(50px);
+}
+.arrow:after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  color: #000000;
+  border-top: 5px solid;
+  border-left: 5px solid;
+  transform: rotateZ(45deg);
+  top: 50%;
+  left: 50%;
+  margin-top: -6px;
+  margin-left: -13px;
+  transform: translateY(50px) rotateZ(45deg);
+}
+@keyframes tipUp {
+  0% {
+    transform: translateY(50px) rotateZ(45deg);
+  }
+  100% {
+    transform: translateY(-70px) rotateZ(45deg);
+  }
+}
+@keyframes lineUp {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(-70px);
+  }
+}
 
 
 /* footer section */
