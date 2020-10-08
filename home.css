@@ -319,6 +319,7 @@ ul {
   width: 120px;
   height: 60px;
   line-height: 60px;
+   box-shadow: 0 3px 10px 0 #07b061dc;
   border: 5px solid #000000;
   overflow: hidden;
   text-transform: uppercase;
