@@ -79,7 +79,8 @@ h3 {
 }
 
 .nav-link:hover {
-  color: rgb(173, 173, 173) !important;
+  color: rgba(255, 160, 184, 0.808) !important;
+  
 }
 /* Navbar */
 
@@ -292,6 +293,10 @@ h3 {
 .icon-footer {
   padding: 1% 2%;
   font-size: 1.5rem;
+}
+
+.icon-footer:hover{
+   transform: scale(1.1);
 }
 
 .copyright-msg {

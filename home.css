@@ -87,6 +87,7 @@ ul {
 
 .nav-link:hover {
   color: rgba(255, 160, 184, 0.808) !important;
+  
 }
 /* Navbar */
 
@@ -275,6 +276,7 @@ ul {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+ 
 }
 
 .btn-hover:focus {
@@ -370,6 +372,10 @@ ul {
   margin-left: -13px;
   transform: translateY(50px) rotateZ(45deg);
 }
+
+.arrow:hover{
+  transform: scale(1.1);
+}
 @keyframes tipUp {
   0% {
     transform: translateY(50px) rotateZ(45deg);
@@ -393,6 +399,9 @@ ul {
   padding: 1% 2%;
   font-size: 1.9rem;
 }
+.icon-footer:hover{
+   transform: scale(1.1);
+}
 
 .copyright-msg {
   color: #eeeeee;
@@ -404,6 +413,7 @@ ul {
 
 .footer-link:hover {
   color: #ffcd60;
+  
 }
 
 #footer {
