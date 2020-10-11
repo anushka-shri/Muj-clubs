@@ -387,7 +387,7 @@
   -ms-transform: translate(50%, -50%) rotate(0deg);
 }
 body {
-  background-image: url("images\bg-trial.jpeg");
+  background-image: url("../images/bg-trial.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
