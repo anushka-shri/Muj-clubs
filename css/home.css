@@ -43,7 +43,7 @@ ul {
 /* title img */
 .top {
   padding: 0px;
-  background-image: url('manipal2.jpg');
+  background-image: url('images\manipal2.jpg');
   opacity: 0.9;
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,7 +169,7 @@ ul {
 }
 
 .card-outer {
-  background-image: url(bg-trial.jpeg);
+  background-image: url(images\bg-trial.jpeg);
   background-size: cover;
 }
 
