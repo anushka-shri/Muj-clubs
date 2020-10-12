@@ -61,7 +61,7 @@ ul {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.80);
+  background-color: rgba(26, 28, 32, 0.85);
 }
 
 .navbar-brand {
@@ -77,18 +77,23 @@ ul {
 .nav-item {
   padding: 0 11px;
   margin-top: 0px;
-  font-weight: 550;
-  font-size: 1.7rem;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
- .nav-link {
+.nav-link {
   color: rgba(255, 255, 255, 0.877) !important;
 }
 
 .nav-link:hover {
-  color: rgba(255, 160, 184, 0.808) !important;
-  
+  color: #ffcd60 !important;
 }
+
+.btn-account {
+  font-size: 1.3rem;
+}
+
+
 /* Navbar */
 
 /* About Us */
