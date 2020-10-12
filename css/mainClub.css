@@ -42,14 +42,13 @@ h3 {
 
 
 
-
 /* Navbar */
 .navbar {
   align-items: flex-end;
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.80);
+  background-color: rgba(26, 28, 32, 0.85);
 }
 
 .navbar-brand {
@@ -65,27 +64,29 @@ h3 {
 .nav-item {
   padding: 0 11px;
   margin-top: 0px;
-  font-weight: 550;
-  font-size: 1.7rem;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
- .nav-link {
+.nav-link {
   color: rgba(255, 255, 255, 0.877) !important;
 }
 
 .nav-link:hover {
-  color: rgb(189, 189, 189) !important;
-
- 
+  color: #ffcd60 !important;
 }
 
- /* .big-heading {
+.btn-account {
+  font-size: 1.3rem;
+}
+
+.big-heading {
   font-family: "Ubuntu";
   font-size: 3.2rem;
   padding-top: 5%;
   line-height: 1.2;
   font-weight: bold;
-} */
+}
 
 /* Navbar */
 

@@ -81,6 +81,8 @@ h3 {
   font-weight: bold;
 }
 
+/* Navbar */
+
 /* clubs button */
 .club-button {
   margin: 10% 3% 10% 3%;
@@ -276,6 +278,7 @@ h3 {
     margin: 0 0 2rem 0;
   }
 }
+/* Placards */
 
 /* FOOTER SECTION*/
 /* up button */
@@ -407,3 +410,5 @@ h3 {
   background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
   background-image: -o-linear-gradient(top, #00818a, #07b061e5);
 }
+
+/* FOOTER SECTION*/
