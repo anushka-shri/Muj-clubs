@@ -30,6 +30,7 @@
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+  <script src="jsfiles/Arrow.js"></script>
 </head>
 
 <body>
@@ -210,26 +211,4 @@
 
 </html>
 
-<!-- up button -->
-<script type="text/javascript">
-  upInteractive = false;
 
-  function autoToggle() {
-    $('.arrow').toggleClass('auto');
-  }
-
-  $('.arrow').hover(function () {
-    upInteractive = true;
-    $('.arrow').removeClass('auto');
-  });
-
-  setInterval(function () {
-
-    console.log(upInteractive);
-
-    if (upInteractive === false) {
-      autoToggle();
-    }
-
-  }, 2000);
-</script>
