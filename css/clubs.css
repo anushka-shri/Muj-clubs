@@ -29,7 +29,7 @@ h3 {
 
 /* Title section */
 .title-section {
-  background-image: url(images/club-bg.png);
+  background-image: url(../images/club-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -303,7 +303,7 @@ h3 {
   height: 50px;
   /* box-shadow: 0 4px 15px 0 #003e42; */
   line-height: 60px;
-  border: 2px solid $color;
+  border: 2px solid color;
   border-radius: 20px;
   overflow: hidden;
   text-transform: uppercase;
