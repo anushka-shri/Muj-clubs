@@ -474,7 +474,7 @@ box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
   height: 50px;
   /* box-shadow: 0 4px 15px 0 #003e42; */
   line-height: 60px;
-  border: 2px solid color;
+   border: 2px solid #1dcf7cdc;
   border-radius: 20px;
   overflow: hidden;
   text-transform: uppercase;
