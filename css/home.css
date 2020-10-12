@@ -267,7 +267,7 @@ ul {
      border-radius: 11px;
     border: none;
     background-size: 300% 100%;
-   moz-transition: all .4s ease-in-out;
+   /* moz-transition: all .4s ease-in-out; */
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -275,7 +275,7 @@ ul {
 
 .btn-hover:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
+    /* moz-transition: all .4s ease-in-out; */
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -352,10 +352,7 @@ ul {
   transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
 }
 
-.arrow:hover:before, .arrow.auto:before {
-  /* animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
-  /* animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
-}
+
 
 .arrow:hover:after, .arrow.auto:after {
   animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
