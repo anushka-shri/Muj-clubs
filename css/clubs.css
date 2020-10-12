@@ -386,10 +386,10 @@ h3 {
 /* footer icons and text  */
 .icon-footer {
   padding: 1% 2%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .icon-footer:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .copyright-msg {

@@ -299,22 +299,12 @@ ul {
   text-decoration: none;
   color: #fff;
 }
+/* //Button */
 
-
-/* Button */ 
-
-/* Arrow button */
-
-@import "compass/css3";
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
-/* body {
-  background: #333;
-  font-family: 'Lato', sans-serif;
-} */
-
+/* FOOTER SECTION*/
 /* up button */
 .arrow-btn-item {
-  margin: 0%;
+  margin: 5%;
 }
 
 @import "compass/css3";
@@ -414,15 +404,13 @@ ul {
   }
 }
 
-
-
-/* footer section */
+/* footer icons and text  */
 .icon-footer {
   padding: 1% 2%;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 .icon-footer:hover{
-   transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .copyright-msg {
@@ -435,8 +423,10 @@ ul {
 
 .footer-link:hover {
   color: #ffcd60;
-  
 }
+
+
+
 
 #footer {
    background-image: -moz-linear-gradient(top, #00818a, #07b061dc);
