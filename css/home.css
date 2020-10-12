@@ -170,7 +170,7 @@ ul {
 
 /* Cards */
 .card {
-  -shadow: 0 4px 8px 0 #52575d, 0 6px 15px 0 #52575d;
+ box-shadow: 0 4px 8px 0 #52575d, 0 6px 15px 0 #52575d;
 }
 
 .card-outer {
