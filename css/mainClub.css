@@ -450,15 +450,116 @@ box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
 
 /* Club Images */
 
-/* events */
-/* footer section */
+/* FOOTER SECTION*/
+/* up button */
+.arrow-btn-item {
+  margin: 5%;
+}
+
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+.arrow {
+  font-family: 'Ubuntu';
+  background-image: linear-gradient(to right, #222831, #222831, #393e46, #686d76);
+  position: relative;
+  margin: 5%;
+  margin-top: 0;
+  margin-bottom: 2%;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  /* box-shadow: 0 4px 15px 0 #003e42; */
+  line-height: 60px;
+  border: 2px solid color;
+  border-radius: 20px;
+  overflow: hidden;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.arrow:hover, .arrow.auto {
+  width: 50px;
+  margin-left: -30px;
+  border-radius: 40px;
+  color: rgba(179, 195, 58, 0);
+  text-decoration: none;
+  transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
+}
+
+
+
+.arrow:hover:after, .arrow.auto:after {
+  animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+  /* animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
+}
+
+.arrow:before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  background: #fff;
+  width: 5px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -3px;
+  transform: translateY(50px);
+}
+
+.arrow:after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border-top: 5px solid;
+  border-left: 5px solid;
+  transform: rotateZ(45deg);
+  top: 50%;
+  left: 50%;
+  margin-top: -6px;
+  margin-left: -13px;
+  transform: translateY(50px) rotateZ(45deg);
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+}
+
+@keyframes tipUp {
+  0% {
+    transform: translateY(50px) rotateZ(45deg);
+  }
+
+  100% {
+    transform: translateY(-70px) rotateZ(45deg);
+  }
+}
+
+@keyframes lineUp {
+  0% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateY(-70px);
+  }
+}
+
+/* footer icons and text  */
 .icon-footer {
   padding: 1% 2%;
   font-size: 1.5rem;
 }
-
 .icon-footer:hover{
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .copyright-msg {
@@ -474,9 +575,10 @@ box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
 }
 
 #footer {
-  background-color: #00818a;
-  /* background-color: #133b5c; */
-  /* background-color: #d34848; */
-  /* background-color: #f0a500; */
+  background-image: -moz-linear-gradient(top, #00818a, #07b061dc);
+  background-image: -webkit-linear-gradient(top, #00818a, #42b8b2);
+  background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
+  background-image: -o-linear-gradient(top, #00818a, #07b061e5);
 }
-/* footer section */
+
+/* FOOTER SECTION*/
