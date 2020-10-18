@@ -240,7 +240,6 @@ h3 {
 .loading {
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   text-transform:uppercase;
-  
   width:20vw;
   text-align:center;
   line-height:50px;
@@ -250,7 +249,7 @@ h3 {
   right:0;
   top:10vh;
   margin-top: 1vh;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
   transform:translateY(-50%);
 }
 
@@ -450,6 +449,112 @@ box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
 
 /* Club Images */
 
+/* members */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+.container {
+  display: flex;
+  
+}
+.card {
+ 
+  margin: 3rem;
+  width: 300px;
+  height: 500px;
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card .title {
+  color: white;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.card .title--legendary {
+  background-color: #f4d03f;
+}
+.card .title--legendary:hover {
+  box-shadow: 0 0 12px rgba(244, 208, 63, 0.8);
+}
+.card .title--epic {
+  background-color: #8c14fc;
+}
+.card .title--epic:hover {
+  box-shadow: 0 0 12px rgba(140, 20, 252, 0.8);
+}
+.card .title--common {
+  background-color: #2ecc71;
+}
+.card .title--common:hover {
+  box-shadow: 0 0 12px rgba(46, 204, 113, 0.8);
+}
+.card .desc {
+  text-align: center;
+}
+.card .actions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card .actions button {
+  padding: 0.5rem 0.8rem;
+ cursor: pointer;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: background-color 0.4s, color 0.4s, transform 0.1s;
+}
+.card .actions button:hover {
+  color: white;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+}
+.card .actions button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+}
+.card .actions__like:hover {
+  background-color: #00abb1;
+}
+.card .actions__trade:hover {
+  background-color: #3498db;
+}
+.card .actions__cancel:hover {
+  background-color: #c02b64;
+}
+p {
+  margin-top: 1rem;
+  color: #484848;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #2574a9;
+}
+.active {
+  background-color: #00b16a;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
+
+/* members */
+
+
+
+
 /* FOOTER SECTION*/
 /* up button */
 .arrow-btn-item {
@@ -567,11 +672,11 @@ box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
 }
 
 .footer-link {
-  color: #fff;
+  color: #fff  !important;
 }
 
 .footer-link:hover {
-  color: #ffcd60;
+  color: #ffcd60 !important;
 }
 
 #footer {
