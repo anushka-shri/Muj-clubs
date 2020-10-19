@@ -510,8 +510,8 @@ box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
 
  /* Slideshow container */
 .slideshow-container {
-  width:55vw;
-  margin-left:25vw;
+  width:100vw;
+  /* margin-left:25vw; */
   position: relative;
   background: #f1f1f1f1;
 }
@@ -557,8 +557,8 @@ box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
 
 /* The dot/bullet/indicator container */
 .dot-container {
-  width:55vw;
-  margin-left: 25vw;
+  width:100vw;
+  /* margin-left: 25vw; */
   text-align: center;
   padding: 20px;
   background: #ddd;
@@ -1131,7 +1131,7 @@ button::-moz-focus-inner {
   margin-bottom: 2%;
   display: inline-block;
   font-size: 20px;
-  color: #fff;
+  color: #fff ;
   text-align: center;
   width: 100px;
   height: 50px;
@@ -1165,7 +1165,7 @@ button::-moz-focus-inner {
   position: absolute;
   display: inline-block;
   content: "";
-  background: #fff;
+  background: #fff !important;
   width: 5px;
   height: 40px;
   top: 50%;
@@ -1181,7 +1181,7 @@ button::-moz-focus-inner {
   content: "";
   width: 20px;
   height: 20px;
-  color: #fff;
+  color: #fff !important;
   border-top: 5px solid;
   border-left: 5px solid;
   transform: rotateZ(45deg);
