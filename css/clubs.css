@@ -303,7 +303,7 @@ h3 {
   height: 50px;
   /* box-shadow: 0 4px 15px 0 #003e42; */
   line-height: 60px;
-  border: 2px solid color;
+ border: 2px solid #1dcf7cdc;
   border-radius: 20px;
   overflow: hidden;
   text-transform: uppercase;
@@ -385,11 +385,10 @@ h3 {
 /* footer icons and text  */
 .icon-footer {
   padding: 1% 2%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
-
-.icon-footer:hover {
-  transform: scale(1.1);
+.icon-footer:hover{
+  transform: scale(1.2);
 }
 
 .copyright-msg {
@@ -403,6 +402,7 @@ h3 {
 .footer-link:hover {
   color: #ffcd60;
 }
+
 
 #footer {
   background-image: -moz-linear-gradient(top, #00818a, #07b061dc);
