@@ -7,7 +7,7 @@
   <!-- css style sheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="css\home.css">
+  <link rel="stylesheet" href="css/home.css">
 
   <!-- font awesome link -->
   <script src="https://kit.fontawesome.com/e58d4fb0ce.js" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
-  <script src="jsfiles\home.js"></script>
+  <!-- <script src="home.js"></script> -->
 </head>
 
 <body>
@@ -39,9 +39,7 @@
 
     <!-- Title and navbar -->
 
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark " id ="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark " id="nav">
       <a class="navbar-brand"> <img class="navbar-logo" src="images/logo10.png" alt=""> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,21 +58,15 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="mainClub.html">Register</a>
+            <a class="nav-link" href="login.html">Login</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link" href="#footer">Contacts</a>
           </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="Login.html">Login</a>
-              <a class="dropdown-item" href="Login.html">Sign Up</a>
-             
-            </div>
+          <li class="nav-item">
+            <a type="button" class="nav-link btn-account btn btn-outline-secondary" href="register.html">Register</a>
           </li>
         </ul>
 
@@ -89,7 +81,7 @@
   </section>
 
   <!--Welcome and about us -->
-  <section >
+  <section>
 
     <div class=" container-fluid testimonial-block-vertical uk-animation-toggle" tabindex="0">
 
@@ -138,7 +130,7 @@
 
 
   <!-- About clubs -->
-  <section class="white-section" class="Clubs-info">
+  <section class="white-section Clubs-info">
 
 
     <div class="container-fluid">
@@ -149,7 +141,7 @@
           <div class="col-lg-6">
             <div class="card">
               <div class="card-body tech-img">
-                <img class="tech-img card-img" src="images\technical.jpg" alt="tech-img">
+                <img class="tech-img card-img" src="images/technical.jpg" alt="tech-img">
               </div>
             </div>
           </div>
@@ -227,7 +219,7 @@
           <div class="col-lg-6">
             <div class="card">
               <div class="card-body tech-img">
-                <img class="cul-img card-img" src="images\cultural.jpg" alt="cul-img">
+                <img class="cul-img card-img" src="images/cultural.jpg" alt="cul-img">
               </div>
             </div>
           </div>
@@ -236,15 +228,13 @@
         <hr>
       </div>
 
-      <!-- <a class="btn" href="">Check out MUJ Clubs!</a> -->
-  
-      <div class="buttons">
-        <button class="btn-hover color-6"> <a href="Clubs.html" class="mujclubs" > Check out MUJ Clubs!</a></button>
+      <!-- button -->
+      <div class="btn-area">
+        <button class="btn btn-clubs color-6"> <a href="Clubs.html" class="btn-link"> Check out MUJ Clubs! </a></button>
       </div>
 
     </div>
 
-    
   </section>
 
   <!-- Footer -->
@@ -269,3 +259,27 @@
 </body>
 
 </html>
+
+<!-- up button -->
+<script type="text/javascript">
+  upInteractive = false;
+
+  function autoToggle() {
+    $('.arrow').toggleClass('auto');
+  }
+
+  $('.arrow').hover(function () {
+    upInteractive = true;
+    $('.arrow').removeClass('auto');
+  });
+
+  setInterval(function () {
+
+    console.log(upInteractive);
+
+    if (upInteractive === false) {
+      autoToggle();
+    }
+
+  }, 2000);
+</script>
