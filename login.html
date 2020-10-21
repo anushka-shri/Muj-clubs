@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MUJ Clubs-Login</title>
+  <!-- css style sheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/login.css">
+
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/e58d4fb0ce.js" crossorigin="anonymous"></script>
+  <!-- various links for bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+  <!-- <script src="home.js"></script> -->
+</head>
+
+<body>
+  <!-- title and navbar  -->
+  <section class="title-section">
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg  navbar-dark " id="nav">
+      <a class="navbar-brand"> <img class="navbar-logo" src="images\logo10.png" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Clubs.html">MUJ Clubs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contacts</a>
+          </li>
+
+          <li class="nav-item">
+            <a type="button" class="nav-link btn-account btn btn-outline-secondary" href="register.html">Register</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="container-fluid">
+
+      <!-- title image section -->
+
+      <div class="top">
+        <h1 class="big-heading">Welcome back, Users!</h1>
+        <p class="sub-heading">Core members only!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Login form -->
+  <section class="container-fluid">
+
+    <div class="card register-container">
+      <!--About Us-->
+      <!--//About Us-->
+
+      <!--Loginbox-->
+
+      <div class="loginbox">
+
+        <h1 class="login-font">Login here</h1>
+        <form>
+          <p>Registration number</p>
+          <input type="number" name="" placeholder="username">
+          <p>Password</p>
+          <input type="password" name="" placeholder="password"><br>
+          <input type="submit" name="" value="Submit"><br><br>
+
+        </form>
+      </div>
+      <!--//Loginbox-->
+    </div>
+    <!-- login form -->
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="colored-section" id="footer">
+    <!-- copyright and contact info -->
+    <div class="container-fluid">
+      <!-- up button -->
+      <div class="arrow-up">
+        <a href="#nav" class="arrow-btn-item arrow">up<i class="arrow-btn-item fas fa-chevron-up"></i></a>
+      </div>
+      <a class="footer-link" href="https://twitter.com/Jaipur_Manipal"><i class="icon-footer fab fa-twitter"></i></a>
+      <a class="footer-link" href="https://www.facebook.com/manipal.university"> <i class="icon-footer fab fa-facebook-f"></i></a>
+      <a class="footer-link" href="https://www.instagram.com/jaipurmanipal/?hl=en"><i class="icon-footer fab fa-instagram"></i></a>
+      <!-- <a href=""><i class="icon-footer fas fa-envelope"></i></a> -->
+      <p class="copyright-msg">©Copyright 2020 MUJ Clubs</p>
+    </div>
+  </footer>
+
+</body>
+
+
+<!-- up button -->
+<script type="text/javascript">
+  upInteractive = false;
+
+  function autoToggle() {
+    $('.arrow').toggleClass('auto');
+  }
+
+  $('.arrow').hover(function() {
+    upInteractive = true;
+    $('.arrow').removeClass('auto');
+  });
+
+  setInterval(function() {
+
+    console.log(upInteractive);
+
+    if (upInteractive === false) {
+      autoToggle();
+    }
+
+  }, 2000);
+</script>
