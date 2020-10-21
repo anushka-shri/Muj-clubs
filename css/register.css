@@ -249,10 +249,7 @@ hr {
   transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
 }
 
-.arrow:hover:before, .arrow.auto:before {
-  /* animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
-  /* animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
-}
+
 
 .arrow:hover:after, .arrow.auto:after {
   animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
