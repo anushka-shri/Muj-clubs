@@ -1,9 +1,4 @@
-html{
- scroll-behavior: smooth;
- }
-
 body {
-
   font-family: 'Montserrat'sans-serif;
   text-align: center;
 }
@@ -28,7 +23,9 @@ h3 {
   padding: 5% 8%;
 }
 
-
+.dark-bg {
+  /* background-color: #222831; */
+}
 
 /* Title section */
 .title-section {
@@ -85,8 +82,6 @@ h3 {
   line-height: 1.2;
   font-weight: bold;
 }
-
-/* Navbar */
 
 /* clubs button */
 .club-button {
@@ -283,7 +278,6 @@ h3 {
     margin: 0 0 2rem 0;
   }
 }
-/* Placards */
 
 /* FOOTER SECTION*/
 /* up button */
@@ -309,7 +303,7 @@ h3 {
   height: 50px;
   /* box-shadow: 0 4px 15px 0 #003e42; */
   line-height: 60px;
-  border: 2px solid #1dcf7cdc;
+  border: 2px solid color;
   border-radius: 20px;
   overflow: hidden;
   text-transform: uppercase;
@@ -391,10 +385,11 @@ h3 {
 /* footer icons and text  */
 .icon-footer {
   padding: 1% 2%;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
-.icon-footer:hover{
-  transform: scale(1.2);
+
+.icon-footer:hover {
+  transform: scale(1.1);
 }
 
 .copyright-msg {
@@ -415,5 +410,3 @@ h3 {
   background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
   background-image: -o-linear-gradient(top, #00818a, #07b061e5);
 }
-
-/* FOOTER SECTION*/
