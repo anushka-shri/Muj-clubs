@@ -31,12 +31,12 @@ h3 {
 
 /* Title section */
 .title-section {
-  background-image: url(../images/main-club-img.jpg);
+  background-image: url(../images/club-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 70vh;
-  background-color: #0f3057
+  /* background-color: #0f3057 */
 }
 
 /* Navbar */
@@ -79,6 +79,17 @@ h3 {
 
 /* Navbar */
 /* Club heading */
+.big-heading {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: "Ubuntu";
+  font-size: calc(10px + 12vh);
+  margin-top: 5%;
+  line-height: calc(20px + 22vh);
+  font-weight: 500;
+  box-shadow: 0 4px 15px 0 #003e42;
+  border-radius: 8px;
+}
+
 .design {
   font-size: calc(20px + 18vh);
   line-height: calc(20px + 22vh);
@@ -142,8 +153,8 @@ h3 {
 /* Club heading */
 /* About Us */
 .testimonial-block-vertical {
-  background-color: rgba(246, 218, 99, 0.9);
-  /* background-color: #ffbb91; */
+  /* background-color: rgba(246, 218, 99, 0.9); */
+  background-color: #222831;
 }
 
 .testimonial-block-vertical-quote {
@@ -203,7 +214,7 @@ h3 {
 .testimonial-block-vertical-info {
   text-transform: uppercase;
   font-size: 18px;
-  color: #393e46 !important;
+  color: #dae1e7 !important;
   margin-bottom: 0;
   font-weight: bold;
   margin-left: 0.65rem;
@@ -667,7 +678,6 @@ button::-moz-focus-inner {
 }
 
 .btn-clubs:hover {
-  transform: scale(1.01);
   font-size: 31px;
   padding: 5px 20px;
   background-position: 100% 0;
@@ -675,7 +685,7 @@ button::-moz-focus-inner {
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-
+  transform: scale(1.05);
 }
 
 .btn-clubs:focus {
@@ -808,7 +818,7 @@ button::-moz-focus-inner {
 /* footer icons and text */
 .icon-footer {
   padding: 1% 2%;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .icon-footer:hover {
