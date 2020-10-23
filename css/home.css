@@ -46,7 +46,7 @@ ul {
 .navbar {
   align-items: flex-end;
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   background-color: rgba(26, 28, 32, 0.85);
 }
@@ -263,6 +263,7 @@ ul {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    transform: scale(1.1);
 }
 
 .btn-clubs:focus {
@@ -277,10 +278,12 @@ ul {
 .btn-link{
   text-decoration: none;
   color: #fff;
+
 }
 .btn-link:hover{
   text-decoration: none;
   color: #fff;
+
 }
 /* //Button */
 

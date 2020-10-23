@@ -45,7 +45,8 @@ hr {
 .navbar {
   align-items: flex-end;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   z-index: 2;
   background-color: rgba(26, 28, 32, 0.85);
 }
