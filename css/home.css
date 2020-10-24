@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
@@ -43,7 +46,7 @@ ul {
 .navbar {
   align-items: flex-end;
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   background-color: rgba(26, 28, 32, 0.85);
 }
@@ -233,6 +236,7 @@ ul {
   color: #fff;
   /* font-size: 28px; */
   text-align: center;
+
 }
 
 .btn-clubs {
@@ -254,13 +258,16 @@ ul {
   transition: all .4s ease-in-out;
 }
 
+
+
 .btn-clubs:hover {
   background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  transform: scale(1.05);
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: scale(1.1);
+
 }
 
 .btn-clubs:focus {
@@ -272,14 +279,19 @@ ul {
   box-shadow: 0 4px 15px 0 #003e42;
 }
 
-.btn-link {
+
+.btn-link{
+
   text-decoration: none;
   color: #fff;
+
 }
 
-.btn-link:hover {
+.btn-link:hover{
+
   text-decoration: none;
   color: #fff;
+
 }
 
 /* FOOTER SECTION */
@@ -298,6 +310,9 @@ ul {
   margin: 5%;
   margin-top: 0;
   margin-bottom: 2%;
+
+  
+
   display: inline-block;
   font-size: 20px;
   color: #fff;
