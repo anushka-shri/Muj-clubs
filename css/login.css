@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
@@ -230,7 +232,7 @@ hr {
   height: 50px;
   /* box-shadow: 0 4px 15px 0 #003e42; */
   line-height: 60px;
-  border: 2px solid $color;
+ border: 2px solid #1dcf7cdc;
   border-radius: 20px;
   overflow: hidden;
   text-transform: uppercase;
@@ -341,10 +343,8 @@ hr {
   background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
   background-image: -o-linear-gradient(top, #00818a, #07b061e5);
 }
-=======
-html {
-  scroll-behavior: smooth;
-}
+
+
 
 body {
   font-family: 'Montserrat'sans-serif;
