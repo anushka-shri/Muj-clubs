@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
-
-html {
+html{
   scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
@@ -31,14 +31,11 @@ h3 {
 
 /* Title section */
 .title-section {
-
-  background-image: url(../images/main-club-img.jpg);
-
+  background-image: url(../images/club-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 70vh;
-
   /* background-color: #0f3057 */
 }
 
@@ -46,7 +43,6 @@ h3 {
 .navbar {
   align-items: flex-end;
   width: 100%;
-  /* position: absolute; */
   position: fixed;
   z-index: 2;
   background-color: rgba(26, 28, 32, 0.85);
@@ -83,8 +79,6 @@ h3 {
 
 /* Navbar */
 /* Club heading */
-
-
 .big-heading {
   /* font-family: 'Noto Sans JP', sans-serif; */
   font-family: "Ubuntu";
@@ -159,10 +153,8 @@ h3 {
 /* Club heading */
 /* About Us */
 .testimonial-block-vertical {
-
   /* background-color: rgba(246, 218, 99, 0.9); */
   background-color: #222831;
-
 }
 
 .testimonial-block-vertical-quote {
@@ -325,20 +317,6 @@ h3 {
   margin-bottom: 10vh;
 }
 
-
-.loading2 span {
-  position: relative;
-  z-index: 999;
-  color: rgb(12, 12, 12);
-}
-
-.loading2:before {
-  content: '';
-  background: #05b3a4;
-  width: 260px;
-  height: 50px;
-
-
 .loading2 span {
   position: relative;
   z-index: 999;
@@ -386,45 +364,9 @@ h3 {
   right: 0;
   bottom: 0;
   margin: auto;
-
-  animation: 2s loadingBefore infinite ease-in-out;
-}
-
-@keyframes loadingBefore {
-  0% {
-    transform: translateX(-25px);
-  }
-
-  50% {
-    transform: translateX(25px);
-  }
-
-  100% {
-    transform: translateX(-25px);
-  }
-}
-
-.loading2:after {
-  content: '';
-  background: #ffe600;
-  width: 20px;
-  height: 65px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
   opacity: 0.8;
   animation: 2s loadingAfter infinite ease-in-out;
 }
-
-
-  opacity: 0.8;
-  animation: 2s loadingAfter infinite ease-in-out;
-}
-
 
 @keyframes loadingAfter {
   0% {
@@ -671,7 +613,6 @@ h3 {
   transition: background-color 0.4s, color 0.4s, transform 0.1s;
 }
 
-
 .card .actions button:hover {
   color: white;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
@@ -693,7 +634,6 @@ h3 {
 .card .actions__cancel:hover {
   background-color: #c02b64;
 }
-
 
 p {
   margin-top: 1rem;
@@ -795,9 +735,7 @@ button::-moz-focus-inner {
   width: 100px;
   height: 50px;
   line-height: 60px;
-
- border: 2px solid #1dcf7cdc;
-
+  border: 2px solid #1dcf7cdc;
   border-radius: 20px;
   overflow: hidden;
   text-transform: uppercase;
