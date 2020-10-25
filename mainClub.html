@@ -2,6 +2,31 @@
 <html lang="en" dir="ltr">
 
 <head>
+
+  <meta charset="utf-8">
+  <title>MUJ Clubs-club-name</title>
+  <!-- css style sheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/mainClub.css">
+  <link rel="stylesheet" href="css/mainClub.scss">
+
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/e58d4fb0ce.js" crossorigin="anonymous"></script>
+  <!-- various links for bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+  <script src="mainClub.js"></script>
+
     <meta charset="utf-8">
     <title>MUJ Clubs-club-name</title>
     <!-- css style sheet -->
@@ -33,13 +58,23 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
     <script src="mainClub.js"></script>
+
 </head>
 
 <body>
 
 
-    <!-- title and navbar  -->
-    <section class="title-section">
+  <!-- title and navbar  -->
+  <section class="title-section">
+
+
+    <!-- Title and navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark " id="nav">
+      <a class="navbar-brand"> <img class="navbar-logo" src="images/logo10.png" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
         <!-- Title and navbar -->
 
@@ -50,16 +85,32 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-                <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+     <ul class="navbar-nav">
                     <li class="nav-item ">
                         <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="Clubs.html">MUJ Clubs</a>
-                    </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Clubs.html">MUJ Clubs</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contacts</a>
+          </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="login.html">Login</a>
@@ -75,7 +126,32 @@
                     </li>
                 </ul>
 
-            </div>
+
+          <li class="nav-item">
+            <a type="button" class="nav-link btn-account btn btn-outline-secondary" href="register.html">Register</a>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </nav>
+    <!-- clubname and register button -->
+    <div class="container-fluid">
+
+      <h1 class="design">Club Name</h1>
+      <!--register button top -->
+      <div class="btn-area ">
+        <button class="btn btn-clubs register-top"> <a href="register.html" class="btn-link"> Register Now! </a></button>
+      </div>
+
+    </div>
+    <!-- //clubname and register button -->
+  </section>
+  <!-- end of title section -->
+
+  <!--Welcome and about us -->
+  <section>
 
         </nav>
         <!-- clubname and register button -->
@@ -94,10 +170,47 @@
 
             </div>
 
+
         </div>
         <!-- //clubname and register button -->
     </section>
     <!-- end of title section -->
+
+
+      <div class="testimonial-block-vertical-quote  uk-card uk-card-default uk-card-body uk-animation-slide-left-small">
+
+        <p class="uk-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices, elit sed
+          faucibus pharetra, diam mauris
+
+          bibendum orci, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu
+
+          tristique sem rutrum.
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices, elit sed faucibus pharetra, diam
+          mauris
+
+          bibendum orci, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu
+
+          tristique sem rutrum.
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices, elit sed faucibus pharetra, diam
+          mauris
+
+          bibendum orci, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu
+
+          tristique sem rutrum.
+
+        </p>
+
+      </div>
+
+      <div class="testimonial-block-vertical-person">
+
+        <img class="testimonial-block-vertical-avatar" src="https://placehold.it/60" alt="" />
+
+        <div>
+
+          <p class="testimonial-block-vertical-name">About Us</p>
 
     <!--Welcome and about us -->
     <section>
@@ -146,11 +259,13 @@
 
                 </div>
 
-            </div>
+       
 
         </div>
 
+
     </section>
+
 
 
 
@@ -161,38 +276,39 @@
         </div>
     </article>
 
-    <!--// Heading-A -->
-
-
-
-    <!-- Club Images -->
-    <div class="container-fluid">
-        <div class="grid-background">
-            <div class="grid">
-                <div class="item"
-                    style="background-image: url(https://images.unsplash.com/photo-1439209306665-700c9bca794c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=)">
-                </div>
-
-                <div class="item"
-                    style="background-image: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?dpr=1&auto=compress,format&fit=crop&w=1199&h=871&q=80&cs=tinysrgb&crop=)">
-                </div>
-
-                <div class="item"
-                    style="background-image: url(https://images.unsplash.com/photo-1488572384981-eac03dfeb6b9?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=)">
-                </div>
-
-                <div class="item"
-                    style="background-image: url(https://images.unsplash.com/photo-1470091688026-38b51162c8df?dpr=1&auto=compress,format&fit=crop&w=1199&h=750&q=80&cs=tinysrgb&crop=)">
-                </div>
-
-                <div class="item"
-                    style="background-image: url(https://images.unsplash.com/photo-1475139450941-3b6464b2dde3?dpr=1&auto=compress,format&fit=crop&w=1199&h=673&q=80&cs=tinysrgb&crop=)">
-                </div>
-            </div>
-        </div>
+  <!-- Heading-A -->
+  <article>
+    <div class="loading">
+      <span>Highlights</span>
     </div>
-    <!-- //Club Images -->
+  </article>
 
+  <!--// Heading-A -->
+
+
+
+  <!-- Club Images -->
+  <div class="container-fluid">
+    <div class="grid-background">
+      <div class="grid">
+        <div class="item" style="background-image: url(https://images.unsplash.com/photo-1439209306665-700c9bca794c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=)">
+        </div>
+
+        <div class="item" style="background-image: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?dpr=1&auto=compress,format&fit=crop&w=1199&h=871&q=80&cs=tinysrgb&crop=)">
+        </div>
+
+        <div class="item" style="background-image: url(https://images.unsplash.com/photo-1488572384981-eac03dfeb6b9?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=)">
+        </div>
+
+        <div class="item" style="background-image: url(https://images.unsplash.com/photo-1470091688026-38b51162c8df?dpr=1&auto=compress,format&fit=crop&w=1199&h=750&q=80&cs=tinysrgb&crop=)">
+        </div>
+
+        <div class="item" style="background-image: url(https://images.unsplash.com/photo-1475139450941-3b6464b2dde3?dpr=1&auto=compress,format&fit=crop&w=1199&h=673&q=80&cs=tinysrgb&crop=)">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //Club Images -->
 
     <!-- Members -->
 
@@ -295,3 +411,4 @@
 
     }, 2000);
 </script>
+

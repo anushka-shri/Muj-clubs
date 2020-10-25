@@ -206,7 +206,7 @@ ul {
 }
 
 .scrollbar-dusty-grass::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-color: #F5F5F5;
   border-radius: 10px;
 }
@@ -236,6 +236,7 @@ ul {
   color: #fff;
   /* font-size: 28px; */
   text-align: center;
+
 }
 
 .btn-clubs {
@@ -257,6 +258,8 @@ ul {
   transition: all .4s ease-in-out;
 }
 
+
+
 .btn-clubs:hover {
   background-position: 100% 0;
     /* moz-transition: all .4s ease-in-out; */
@@ -264,6 +267,7 @@ ul {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     transform: scale(1.1);
+
 }
 
 .btn-clubs:focus {
@@ -275,19 +279,22 @@ ul {
   box-shadow: 0 4px 15px 0 #003e42;
 }
 
+
 .btn-link{
+
   text-decoration: none;
   color: #fff;
 
 }
+
 .btn-link:hover{
+
   text-decoration: none;
   color: #fff;
 
 }
-/* //Button */
 
-/* FOOTER SECTION*/
+/* FOOTER SECTION */
 /* up button */
 .arrow-btn-item {
   margin: 5%;
@@ -314,7 +321,7 @@ ul {
   height: 50px;
   /* box-shadow: 0 4px 15px 0 #003e42; */
   line-height: 60px;
-  border: 2px solid #1dcf7cdc;
+  border: 2px solid $color;
   border-radius: 20px;
   overflow: hidden;
   text-transform: uppercase;
@@ -331,7 +338,10 @@ ul {
   transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
 }
 
-
+.arrow:hover:before, .arrow.auto:before {
+  /* animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
+  /* animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
+}
 
 .arrow:hover:after, .arrow.auto:after {
   animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
@@ -393,12 +403,13 @@ ul {
   }
 }
 
-/* footer icons and text  */
+/* footer icons and text */
 .icon-footer {
   padding: 1% 2%;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
-.icon-footer:hover{
+
+.icon-footer:hover {
   transform: scale(1.2);
 }
 
@@ -414,14 +425,10 @@ ul {
   color: #ffcd60;
 }
 
-
-
-
 #footer {
-   background-image: -moz-linear-gradient(top, #00818a, #07b061dc);
-   background-image: -webkit-linear-gradient(top, #186d74, #10ac63);
-   background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
-   background-image: -o-linear-gradient(top, #00818a, #07b061e5);
-
+  background-image: -moz-linear-gradient(top, #00818a, #07b061dc);
+  background-image: -webkit-linear-gradient(top, #00818a, #42b8b2);
+  background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
+  background-image: -o-linear-gradient(top, #00818a, #07b061e5);
 }
-/* footer section */
+/* footer end */
