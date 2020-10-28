@@ -1,26 +1,25 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+//Dark MODE
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+const colorSwitch = document.getElementById('m-color');
+
+colorSwitch.addEventListener('click',checkMode);
+
+function checkMode(){
+    
+    if(colorSwitch.checked){
+        darkModeOn();
+    }
+    else{
+        darkModeOff();
+    }
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function darkModeOn(){
+    document.body.classList.add("dark-mode");
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-} 
+function darkModeOff() {
+    document.body.classList.remove("dark-mode");
+}
+
+//Dark MOde
