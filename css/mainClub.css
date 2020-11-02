@@ -52,6 +52,7 @@ h3 {
   /* background-color: #0f3057 */
 }
 
+
 /* Navbar */
 .navbar {
   align-items: flex-end;
@@ -66,16 +67,24 @@ h3 {
   height: auto;
 }
 
+.navbar-brand:hover {
+  cursor: default;
+}
+
+.name-btn:hover {
+  cursor: pointer;
+}
+
 .navbar-nav {
   margin-right: 10px;
   margin-left: auto;
 }
 
 .nav-item {
-  padding: 0 11px;
+  padding: 0 8px;
   margin-top: 0px;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav-link {
@@ -86,11 +95,21 @@ h3 {
   color: #ffcd60 !important;
 }
 
+.nav-txt {
+  font-size: 1.2rem;
+}
+
+.nav-txt:hover {
+  color: rgba(255, 255, 255, 0.877) !important;
+  cursor: default;
+}
+
 .btn-account {
   font-size: 1.3rem;
 }
 
 /* Dark mode button */
+/*dark mode */
 
 .switch {
   position: relative;
