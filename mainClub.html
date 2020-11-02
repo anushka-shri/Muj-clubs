@@ -24,7 +24,7 @@
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
-  <script src="mainClub.js"></script>
+  
 </head>
 
 <body>
@@ -44,6 +44,20 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
         <ul class="navbar-nav">
+          <!--light/dark mode container-->
+          
+          
+          <label class="switch">
+            <input type="checkbox" id="m-color">
+            <span class="slider round"></span>
+            <!-- <p>Dark mode</p> -->
+          </label>
+          
+          <li class="nav-item ">
+            <a class="nav-link" href="/">Dark Mode <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <!--// light/dark mode container-->
           <li class="nav-item ">
             <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -245,6 +259,8 @@
   </footer>
 
 </body>
+
+<script src="/jsfiles/mainClub.js"></script>
 
 </html>
 
