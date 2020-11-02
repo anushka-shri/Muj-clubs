@@ -2,15 +2,12 @@
 
 :root {
     --clr-whitesec:white;
-    
 }
 
 
 /*dark mode */
 .dark-mode{
     --clr-whitesec:#000000;
-    
-
 }
 
 html {
@@ -57,6 +54,7 @@ ul {
    background-color:var(--clr-whitesec);
 }
 
+
 /* Navbar */
 .navbar {
   align-items: flex-end;
@@ -71,16 +69,24 @@ ul {
   height: auto;
 }
 
+.navbar-brand:hover {
+  cursor: default;
+}
+
+.name-btn:hover {
+  cursor: pointer;
+}
+
 .navbar-nav {
   margin-right: 10px;
   margin-left: auto;
 }
 
 .nav-item {
-  padding: 0 11px;
+  padding: 0 8px;
   margin-top: 0px;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav-link {
@@ -91,11 +97,21 @@ ul {
   color: #ffcd60 !important;
 }
 
+.nav-txt {
+  font-size: 1.2rem;
+}
+
+.nav-txt:hover {
+  color: rgba(255, 255, 255, 0.877) !important;
+  cursor: default;
+}
+
 .btn-account {
   font-size: 1.3rem;
 }
 
 /* Dark mode button */
+/*dark mode */
 
 .switch {
   position: relative;
@@ -199,7 +215,8 @@ input:checked + .slider:before {
 
 .testimonial-block-vertical-quote p {
   margin-bottom: 0;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  color: rgba(34,40,49,0.9);
 }
 
 .testimonial-block-vertical-quote::after {
