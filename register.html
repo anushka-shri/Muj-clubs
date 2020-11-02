@@ -31,30 +31,31 @@
 
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg  navbar-dark " id="nav">
-      <a class="navbar-brand"> <img class="navbar-logo" src="images\logo10.png" alt=""> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+
+    <nav class="navbar navbar-expand-lg navbar-dark " id="nav">
+      <a class="navbar-brand"> <img class="navbar-logo" src="images/logo10.png" alt=""> </a>
+      <li class="nav-item dropdown">
+        <a class="navbar-brand name-btn nav-link dropdown-toggle btn-account " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hello, name!
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="myclubs.html">My Clubs</a>
+        </div>
+      </li>
 
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-        <ul class="navbar-nav ml-auto">
-
+        <ul class="navbar-nav">
           <!--light/dark mode container-->
-          
-          
           <label class="switch">
             <input type="checkbox" id="m-color">
             <span class="slider round"></span>
-            <!-- <p>Dark mode</p> -->
           </label>
-          
+
           <li class="nav-item ">
-            <a class="nav-link" href="/">Dark Mode <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-txt">Dark Mode <span class="sr-only">(current)</span></a>
           </li>
-          
           <!--// light/dark mode container-->
+
           <li class="nav-item ">
             <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -63,16 +64,23 @@
             <a class="nav-link" href="Clubs.html">MUJ Clubs</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="login.html">Login</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle btn-account btn btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Accounts
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="login.html">Login</a>
+              <a class="dropdown-item" href="#">Logout</a>
+              <a class="dropdown-item" href="signin.html">Sign up</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#footer">Contacts</a>
+            </div>
           </li>
-
+          <!-- <li class="nav-item">
+                <a class="nav-link" href="#footer">Contacts</a>
+              </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#footer">Contacts</a>
-          </li>
-
-          <li class="nav-item">
-            <a type="button" class="nav-link btn-account btn btn-outline-secondary" href="register.html">Register</a>
+            <a type="button" class="nav-link btn-account btn btn-info" href="register.html">Register</a>
           </li>
         </ul>
 
@@ -107,6 +115,8 @@
           <input type="text" name="" placeholder="full name">
           <p>Registration number</p>
           <input type="number" name="" placeholder="reg. no.">
+          <p>Email Id</p>
+          <input type="email" name="" placeholder="example@gmail.com">
           <p>Club Name</p>
           <select class="input-options" id="club-name" name="club-name">
             <option value="club-name">club name</option>
@@ -133,7 +143,7 @@
           <input type="text" name="" placeholder="branch">
           <p>Contact No.</p>
           <input type="number" name="" placeholder="Mobile no.">
-          <input type="submit" name="" value="Register and Pay"><br><br>
+          <button class="btn-form" type="button" name="button">Register and Pay</button><br><br>
         </form>
 
       </div>

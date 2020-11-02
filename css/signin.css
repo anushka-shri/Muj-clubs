@@ -1,0 +1,434 @@
+/*light color mode */
+:root {
+  --clr-whitesec: white;
+}
+
+/*dark mode */
+.dark-mode {
+  --clr-whitesec: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat'sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-family: 'Ubuntu' !important;
+  color: #00818a !important;
+  margin: 50px;
+  font-size: 2rem !important;
+  line-height: 1.2 !important;
+  font-weight: bold !important;
+}
+
+hr {
+  visibility: hidden;
+}
+
+/* container fluid common to all */
+.container-fluid {
+  padding: 8% 12%;
+}
+
+/* Title section */
+.title-section {
+  background-image: url(../images/club-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  background-color: #0f3057
+}
+
+/* Navbar */
+.navbar {
+  align-items: flex-end;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(26, 28, 32, 0.85);
+}
+
+.navbar-brand {
+  width: 3%;
+  height: auto;
+}
+
+.navbar-brand:hover {
+  cursor: default;
+}
+
+.name-btn:hover {
+  cursor: pointer;
+}
+
+.navbar-nav {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 0 8px;
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.877) !important;
+}
+
+.nav-link:hover {
+  color: #ffcd60 !important;
+}
+
+.nav-txt {
+  font-size: 1.2rem;
+}
+
+.nav-txt:hover {
+  color: rgba(255, 255, 255, 0.877) !important;
+  cursor: default;
+}
+
+.btn-account {
+  font-size: 1.3rem;
+}
+
+/* Dark mode button */
+/*dark mode */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 1vh;
+  margin-left: 20vw;
+}
+
+.switch p {
+  color: white;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: grey;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px cadetblue;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*// Dark mode button */
+/* Headings */
+.big-heading {
+  font-family: "Ubuntu";
+  font-size: 3.2rem;
+  padding-top: 5%;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-family: 'Ubuntu' !important;
+  color: #686d76;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* for all cards */
+.card {
+  box-shadow: 0 4px 8px 0 #52575d, 0 6px 15px 0 #52575d;
+}
+
+/* FORM */
+/* login form */
+.register-container {
+  background-image: linear-gradient(to right, #037377, #007272 50%, #e7e7de 50%, #e7e7de);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* height: 100vh; */
+}
+
+.loginbox {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  border: 0.2px solid rgba(255, 255, 255, 0.562);
+  width: 30vw;
+  height: 75vh;
+  background: rgba(0, 0, 0, 0.993);
+  color: #eee;
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  left: 55%;
+  border-radius: 4%;
+  text-align: left;
+}
+
+.form-points {
+  overflow-y: scroll;
+}
+
+.login-font {
+  margin-top: 5vh;
+  color: #eee;
+  margin-bottom: 0.5vh;
+  font-size: 3rem;
+  transform: translate(3%, -40%);
+  padding: 0 0 5px;
+  text-align: center;
+}
+
+.loginbox p {
+  margin: 1rem;
+  font-size: 1.7rem;
+  margin-left: 15%;
+  width: 70%;
+  color: #eee;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Ubuntu' !important;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.loginbox input, .input-options {
+  font-size: 16px;
+  color: #eee;
+  background: transparent;
+  height: 30px;
+  width: 60%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  border-color: #76fff1;
+}
+
+.loginbox input:hover {
+  font-size: 16.5px;
+  color: #eee;
+}
+
+.input-options {
+  color: grey;
+}
+
+.input-options:hover {
+  font-size: 16.5px;
+}
+
+.btn-form {
+  text-align: center;
+  width: 15vw;
+  margin: 10%;
+  margin-left: 15%;
+  border: none;
+  outline: none;
+  height: 5vh;
+  background-image: linear-gradient(to right, #00818a, #07a8b0, #0b8a84, #07b061dc);
+  color: #eee;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.btn-form:hover {
+  transform: scale(1.05);
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/*  Loginbox*/
+/* FOOTER SECTION */
+/* up button */
+.arrow-btn-item {
+  margin: 5%;
+}
+
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+.arrow {
+  font-family: 'Ubuntu';
+  background-image: linear-gradient(to right, #222831, #222831, #393e46, #686d76);
+  position: relative;
+  margin: 5%;
+  margin-top: 0;
+  margin-bottom: 2%;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  /* box-shadow: 0 4px 15px 0 #003e42; */
+  line-height: 60px;
+  border: 2px solid #1dcf7cdc;
+  border-radius: 20px;
+  overflow: hidden;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.arrow:hover, .arrow.auto {
+  width: 50px;
+  margin-left: -30px;
+  border-radius: 40px;
+  color: rgba(179, 195, 58, 0);
+  text-decoration: none;
+  transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
+}
+
+.arrow:hover:after, .arrow.auto:after {
+  animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+  /* animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s; */
+}
+
+.arrow:before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  background: #fff;
+  width: 5px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -3px;
+  transform: translateY(50px);
+}
+
+.arrow:after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border-top: 5px solid;
+  border-left: 5px solid;
+  transform: rotateZ(45deg);
+  top: 50%;
+  left: 50%;
+  margin-top: -6px;
+  margin-left: -13px;
+  transform: translateY(50px) rotateZ(45deg);
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+}
+
+@keyframes tipUp {
+  0% {
+    transform: translateY(50px) rotateZ(45deg);
+  }
+
+  100% {
+    transform: translateY(-70px) rotateZ(45deg);
+  }
+}
+
+@keyframes lineUp {
+  0% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateY(-70px);
+  }
+}
+
+/* footer icons and text */
+.icon-footer {
+  padding: 1% 2%;
+  font-size: 1.5rem;
+}
+
+.icon-footer:hover {
+  transform: scale(1.2);
+}
+
+.copyright-msg {
+  color: #eeeeee;
+  font-family: 'Montserrat'sans-serif;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #ffcd60;
+}
+
+#footer {
+  background-image: -moz-linear-gradient(top, #00818a, #07b061dc);
+  background-image: -webkit-linear-gradient(top, #00818a, #42b8b2);
+  background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
+  background-image: -o-linear-gradient(top, #00818a, #07b061e5);
+}
