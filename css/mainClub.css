@@ -819,7 +819,7 @@ button::-moz-focus-inner {
 }
 
 .carousel-item {
- background-image: linear-gradient(to right, #df48cb, #a548f1d2, #e241bf, #f76394dc);
+ background-image: linear-gradient(60deg, #df7848, #beac0bd5, #e241bf, #f76394dc);
   color: white !important;
   width:60vw;
   margin-left: 20vw;

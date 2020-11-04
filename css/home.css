@@ -2,12 +2,16 @@
 
 :root {
     --clr-whitesec:white;
+    --clr-aboutUs: rgba(246, 218, 99, 0.9);
+    --clr--Navopacity: rgba(26, 28, 32, 0.85);
 }
 
 
 /*dark mode */
 .dark-mode{
-    --clr-whitesec:#000000;
+    --clr-whitesec:#000000dc;
+   --clr-aboutUs:  #f6d743;
+   --clr--Navopacity: rgba(0, 0, 0, 0.863);
 }
 
 html {
@@ -61,7 +65,7 @@ ul {
   width: 100%;
   position: fixed;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.85);
+  background-color: var(--clr--Navopacity);
 }
 
 .navbar-brand {
@@ -200,7 +204,7 @@ input:checked + .slider:before {
 
 /* About Us */
 .testimonial-block-vertical {
-  background-color: rgba(246, 218, 99, 0.9);
+  background-color:var(--clr-aboutUs);
 }
 
 .testimonial-block-vertical-quote {
