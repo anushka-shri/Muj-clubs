@@ -2,12 +2,12 @@
 
 /*light color mode */
 :root {
-  --clr-whitesec: white;
+  --clr-background: white;
 }
 
 /*dark mode */
 .dark-mode {
-  --clr-whitesec: #000000;
+  --clr-background: #1b1e24;
 }
 
 html {
@@ -17,6 +17,7 @@ html {
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
+  background: var(--clr-background);
 }
 
 h1 {
@@ -55,7 +56,7 @@ h3 {
   width: 100%;
   position: fixed;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.85);
+  background-color: rgba(34, 37, 43, 0.822);
 }
 
 .navbar-brand {
