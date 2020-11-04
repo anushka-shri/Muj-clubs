@@ -760,7 +760,8 @@ button::-moz-focus-inner {
 /* members */
 /* Button */
 .btn-area {
-  margin-bottom: 110px;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
   font-family: 'Ubuntu';
   font-weight: bold;
   color: #fff !important;
@@ -817,6 +818,41 @@ button::-moz-focus-inner {
   color: #fff;
 }
 
+.carousel-item {
+ background-image: linear-gradient(to right, #df48cb, #a548f1d2, #e241bf, #f76394dc);
+  color: white !important;
+  width:60vw;
+  margin-left: 20vw;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+
+.testimonial-text{
+color: white !important;
+}
+
+.carousel-control-prev
+{
+   margin-bottom: 20vh;
+  margin-top: 20vh;
+  height: 10vh;
+  width:3vw;
+  margin-left: 3vw;
+  background:black !important;
+  color:white !important;
+}
+
+
+.carousel-control-next
+{
+   margin-bottom: 20vh;
+  margin-top: 20vh;
+   height: 10vh;
+  width:3vw;
+  margin-right: 3vw;
+  background:black !important;
+  color:white !important;
+}
 /* FOOTER SECTION */
 /* up button */
 .arrow-btn-item {
