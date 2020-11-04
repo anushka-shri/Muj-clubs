@@ -10,7 +10,7 @@
 /*dark mode */
 .dark-mode{
     --clr-whitesec:#000000dc;
-   --clr-aboutUs:  #f6d743;
+   --clr-aboutUs:  rgba(246, 218, 99, 1);
    --clr--Navopacity: rgba(0, 0, 0, 0.863);
 }
 

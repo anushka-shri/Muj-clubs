@@ -1,10 +1,12 @@
 /*light color mode */
 :root {
   --clr-whitesec: white;
+   --clr--Navopacity: rgba(26, 28, 32, 0.85);
 }
 
 .dark-mode {
   --clr-whitesec: #000000;
+   --clr--Navopacity: rgba(0, 0, 0, 0.863);
 }
 
 html {
@@ -14,6 +16,8 @@ html {
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
+  background-image: url(../xtras/bg-inner-card5.jpg) ;
+  background-size: cover;
 }
 
 h3 {
@@ -48,7 +52,7 @@ hr {
   width: 100%;
   position: fixed;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.85);
+  background-color:var(--clr--Navopacity);
 }
 
 .navbar-brand {
