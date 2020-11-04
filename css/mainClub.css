@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
 /*light color mode */
-
 :root {
-    --clr-whitesec:white;
-    
+  --clr-whitesec: white;
 }
-
 
 /*dark mode */
-.dark-mode{
-    --clr-whitesec:#000000;
-    
-
+.dark-mode {
+  --clr-whitesec: #000000;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -44,14 +41,13 @@ h3 {
 
 /* Title section */
 .title-section {
-  background-image: url(../images/club-bg.png);
+  background-image: url(../images/new-bg-new.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 70vh;
   /* background-color: #0f3057 */
 }
-
 
 /* Navbar */
 .navbar {
@@ -110,19 +106,17 @@ h3 {
 
 /* Dark mode button */
 /*dark mode */
-
 .switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
-  margin-top:1vh;
-  margin-left:20vw;
-
+  margin-top: 1vh;
+  margin-left: 20vw;
 }
 
-.switch p{
-    color:white;
+.switch p {
+  color: white;
 }
 
 /* Hide default HTML checkbox */
@@ -157,15 +151,15 @@ h3 {
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: grey;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px cadetblue;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -181,84 +175,23 @@ input:checked + .slider:before {
 }
 
 /*// Dark mode button */
-
-/* Navbar */
+/* Navbar end */
 /* Club heading */
 .big-heading {
-  /* font-family: 'Noto Sans JP', sans-serif; */
   font-family: "Ubuntu";
   font-size: calc(10px + 12vh);
-  margin-top: 5%;
-  line-height: calc(20px + 22vh);
   font-weight: 500;
-  box-shadow: 0 4px 15px 0 #003e42;
-  border-radius: 8px;
-}
-
-.design {
-  font-size: calc(20px + 18vh);
+  margin-top: 5%;
+  color: #fff;
   line-height: calc(20px + 22vh);
-  margin-top: 10vh;
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-  color: #fff6a9;
-  font-family: "Sacramento", cursive;
-  text-align: center;
-  animation: blink 6s infinite;
-  -webkit-animation: blink 6s infinite;
-  padding: 2vw 2vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@-webkit-keyframes blink {
-
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    text-shadow: 5px 5px 10px #ffa500, 0 0 15px #c79113, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  }
-}
-
-@keyframes blink {
-
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    text-shadow: 5px 5px 10px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  }
+  text-shadow: 2px 4px 6px #000;
+  box-shadow: 3px 8px 20px 8px #003e42;
+  border-radius: 8px;
 }
 
 /* Club heading */
 /* About Us */
 .testimonial-block-vertical {
-  /* background-color: rgba(246, 218, 99, 0.9); */
   background-color: #222831;
 }
 
@@ -760,8 +693,7 @@ button::-moz-focus-inner {
 /* members */
 /* Button */
 .btn-area {
-  margin-top: 10vh;
-  margin-bottom: 20vh;
+  margin-bottom: 110px;
   font-family: 'Ubuntu';
   font-weight: bold;
   color: #fff !important;
@@ -804,8 +736,9 @@ button::-moz-focus-inner {
 }
 
 .btn-clubs.register-top {
-  background-image: linear-gradient(to right, #7c0a02, #e25822, #bb2205, #f1bc31);
-  box-shadow: 0 4px 15px 0 #bd245f;
+  background-image: linear-gradient(to right, #222831, #686d76, #222831, #393e46);
+  box-shadow: 0 4px 15px 0 #003e42;
+  margin-top: 3%;
 }
 
 .btn-link {
@@ -817,6 +750,7 @@ button::-moz-focus-inner {
   text-decoration: none;
   color: #fff;
 }
+
 
 .carousel-item {
  background-image: linear-gradient(60deg, #df7848, #beac0bd5, #e241bf, #f76394dc);
@@ -853,6 +787,7 @@ color: white !important;
   background:black !important;
   color:white !important;
 }
+
 /* FOOTER SECTION */
 /* up button */
 .arrow-btn-item {
