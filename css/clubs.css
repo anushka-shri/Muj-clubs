@@ -212,9 +212,10 @@ input:checked+.slider:before {
   background-image: linear-gradient(45deg, #233142, #71c9ce, #a6e3e9, #cbf1f5, #71c9ce, #233142);
 }
 
-/* #cultural-section {
-  background-image: linear-gradient(45deg, #e67a7a, #ffebb7, #fff4e1, #9ddcdc, #ffebb7, #e67a7a);
-} */
+#cultural-section {
+    background-image: linear-gradient(45deg, #233142, #71c9ce, #a6e3e9, #cbf1f5, #71c9ce, #233142);
+  /* background-image: linear-gradient(45deg, #000000e1, #00818ab6, #b0facf, rgba(241, 227, 28, 0.719), #c0fce0, #07b061a8); */
+}
 /* placards */
 .wrapper {
   width: 100%;
