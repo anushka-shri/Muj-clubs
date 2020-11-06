@@ -1,13 +1,15 @@
 /*light color mode */
 :root {
-  --clr-whitesec: white;
+  --clr--background:white;
+   --clr--Navopacity: rgba(26, 28, 32, 0.85);
+   --clr--h1:black;
 }
 
-/*dark mode */
 .dark-mode {
-  --clr-whitesec: #000000;
+  --clr--background: #222831;
+   --clr--Navopacity: rgba(0, 0, 0, 0.863);
+   --clr--h1:white;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -15,12 +17,18 @@ html {
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
+  background-color: var(--clr--background);
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 2rem 0;
+  
+}
+
+.h1{
+color: var(--clr--h1);
 }
 
 h3 {
@@ -53,7 +61,7 @@ h3 {
   width: 100%;
   position: fixed;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.85);
+  background-color: var(--clr--Navopacity);
 }
 
 .navbar-brand {
