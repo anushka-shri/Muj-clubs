@@ -8,7 +8,7 @@
 /*dark mode */
 .dark-mode{
    
-  --clr--background:black;
+  --clr--background:#1b1e24;
    --clr--Navopacity: rgba(0, 0, 0, 0.863);
 }
 

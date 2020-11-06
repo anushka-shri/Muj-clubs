@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
 /*light color mode */
-
 :root {
-    --clr-whitesec:white;
-    
+  --clr--background: white;
+  --clr--Navopacity: rgba(26, 28, 32, 0.85);
 }
-
 
 /*dark mode */
-.dark-mode{
-    --clr-whitesec:#000000;
-    
-
+.dark-mode {
+  --clr--background: #1b1e24;
+  --clr--Navopacity: rgba(0, 0, 0, 0.863);
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -20,6 +19,7 @@ html{
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
+  background: var(--clr--background);
 }
 
 h1 {
@@ -59,7 +59,8 @@ h3 {
   width: 100%;
   position: fixed;
   z-index: 2;
-  background-color: rgba(26, 28, 32, 0.85);
+  background-color: var(--clr--Navopacity);
+
 }
 
 .navbar-brand {
