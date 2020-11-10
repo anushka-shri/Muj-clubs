@@ -765,7 +765,7 @@ button::-moz-focus-inner {
 
 .carousel-item {
  background-image: linear-gradient(60deg, #df7848, #beac0bd5, #e241bf, #f76394dc);
-  box-shadow: 0 3px 10px 0  #df7848;
+ 
   color: white !important;
   width:70vw;
   margin-left: 15vw;
