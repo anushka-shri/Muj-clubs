@@ -4,12 +4,14 @@
 :root {
   --clr--background: white;
   --clr--Navopacity: rgba(26, 28, 32, 0.85);
+  --clr--reviews:  #eee4e4;
 }
 
 /*dark mode */
 .dark-mode {
   --clr--background: #1b1e24;
   --clr--Navopacity: rgba(0, 0, 0, 0.863);
+  --clr--reviews: #20232b;
 }
 
 html {
@@ -44,7 +46,7 @@ h3 {
 
 /* Title section */
 .title-section {
-  background-image: url(../xtras/new-club-bg.jpg);
+  background-image: url(../images/new-bg-new.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -696,7 +698,8 @@ button::-moz-focus-inner {
 /* members */
 /* Button */
 .btn-area {
-  margin-bottom: 110px;
+  margin-top: 60px;
+  margin-bottom: 160px;
   font-family: 'Ubuntu';
   font-weight: bold;
   color: #fff !important;
@@ -758,8 +761,8 @@ button::-moz-focus-inner {
 .carousel-item {
  background-image: linear-gradient(60deg, #df7848, #beac0bd5, #e241bf, #f76394dc);
   color: white !important;
-  width:60vw;
-  margin-left: 20vw;
+  width:70vw;
+  margin-left: 15vw;
   margin-bottom: 10vh;
   margin-top: 10vh;
 }
@@ -774,7 +777,7 @@ color: white !important;
   margin-top: 20vh;
   height: 10vh;
   width:3vw;
-  margin-left: 3vw;
+  margin-left: 15vw;
   background:black !important;
   color:white !important;
 }
@@ -786,10 +789,57 @@ color: white !important;
   margin-top: 20vh;
    height: 10vh;
   width:3vw;
-  margin-right: 3vw;
+  margin-right: 14vw;
   background:black !important;
   color:white !important;
 }
+
+/* reviews input */
+.review-input{
+  padding:1%;
+}
+
+.label{
+  margin-bottom: 1.5vh;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #02595f;
+}
+
+.submit-btn{
+   font-size: 30px;
+  font-weight: 900;
+  background-image: linear-gradient(60deg, #df7848, #beac0bd5, #e241bf, #f76394dc);
+  color:white;
+  padding: 5px 20px;
+  height: 60px;
+  border-radius: 11px;
+  border: none;
+  background-size: 300% 100%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  margin-bottom: 10vh;
+}
+
+.submit-btn:hover {
+  font-size: 31px;
+  padding: 5px 20px;
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+ 
+}
+
+.colored-section{
+background: var(--clr--reviews);
+}
+
+/*// reviews input */
+
 
 /* FOOTER SECTION */
 /* up button */
