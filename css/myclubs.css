@@ -197,6 +197,7 @@ input:checked+.slider:before {
   box-shadow: 0 4px 8px 0 #52575d, 0 6px 15px 0 #52575d;
   padding: 2% 0%;
   border-radius: 10px;
+  background-color: var(--clr-whitesec);
 }
 
 
