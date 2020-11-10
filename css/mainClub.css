@@ -838,8 +838,22 @@ color: white !important;
 background: var(--clr--reviews);
 }
 
-/*// reviews input */
+/*// reviews input end */
 
+/* admin btn */
+.admin-panel-btn-bottom{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 80%;
+}
+.admin-panel-btn-top{
+  margin-left: 95%;
+  margin-bottom: 0px ;
+}
+.admin-btn{
+  color: #fff !important ;
+  font-size: 1.2rem !important;
+}
 
 /* FOOTER SECTION */
 /* up button */
