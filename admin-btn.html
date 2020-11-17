@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Admin panel</title>
+  <!-- css style sheet -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/admin-btn.css">
+
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/e58d4fb0ce.js" crossorigin="anonymous"></script>
+  <!-- various links for bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+  
+</head>
+
+<body>
+    
+  <section class="title-section" id="title-section">
+
+    <!-- Title and navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark " id="nav">
+      <a class="navbar-brand"> <img class="navbar-logo" src="images/logo10.png" alt=""> </a>
+      <li class="nav-item dropdown">
+        <a class="navbar-brand name-btn nav-link dropdown-toggle btn-account " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hello, name!
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="myclubs.html">My Clubs</a>
+          <a class="dropdown-item" href="admin-reg.html">Club Registrations</a>
+          <a class="dropdown-item" href="admin-mC.html">Club details</a>
+
+        </div>
+      </li>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <!--light/dark mode container-->
+          <label class="switch">
+            <input type="checkbox" id="m-color">
+            <span class="slider round"></span>
+          </label>
+
+          <li class="nav-item ">
+            <a class="nav-link nav-txt">Dark Mode <span class="sr-only">(current)</span></a>
+          </li>
+          <!--// light/dark mode container-->
+
+          <li class="nav-item ">
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Clubs.html">MUJ Clubs</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle btn-account btn btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Accounts
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="login.html">Login</a>
+              <a class="dropdown-item" href="#">Logout</a>
+              <a class="dropdown-item" href="signin.html">Sign up</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#footer">Contacts</a>
+            </div>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#footer">Contacts</a>
+          </li> -->
+          <li class="nav-item">
+            <a type="button" class="nav-link btn-account btn btn-info" href="register.html">Register</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </section>
+<section>  <div class="container-fluid">
+  <h1 class="big-heading">Core Member</h1>
+  <a class="btn admin-btn btn-info" href="admin-reg.html">Club Registrations</a>
+  <a class="btn admin-btn btn-dark" href="admin-mC.html">Club Details</a>
+</div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="colored-section" id="footer">
+    <!-- copyright and contact info -->
+    <div class="container-fluid">
+      <!-- up button -->
+      <!-- <div class="arrow-up">
+        <a href="#title-section" class="arrow-btn-item arrow">up<i class="arrow-btn-item fas fa-chevron-up"></i></a>
+      </div> -->
+      <a class="footer-link" href="https://twitter.com/Jaipur_Manipal"><i class="icon-footer fab fa-twitter"></i></a>
+      <a class="footer-link" href="https://www.facebook.com/manipal.university"> <i class="icon-footer fab fa-facebook-f"></i></a>
+      <a class="footer-link" href="https://www.instagram.com/jaipurmanipal/?hl=en"><i class="icon-footer fab fa-instagram"></i></a>
+      <!-- <a href=""><i class="icon-footer fas fa-envelope"></i></a> -->
+      <p class="copyright-msg">©Copyright 2020 MUJ Clubs</p>
+    </div>
+  </footer>
+</body>
