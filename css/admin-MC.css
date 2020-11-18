@@ -849,6 +849,11 @@ text-shadow: 2px 2px 4px #000000; ;
 background: var(--clr--reviews);
 }
 
+.forms{
+  display: flex;
+  justify-content: space-between;
+}
+
 /*// reviews input end */
 
 /* admin btn */
