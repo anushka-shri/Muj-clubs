@@ -765,10 +765,9 @@ button::-moz-focus-inner {
 
 .carousel-item {
  background-image: linear-gradient(45deg, #14274e, #394867 ,#f1f6f9,#9ba4b4, #394867);
- 
   color: white !important;
   width:82vw;
-  height:40vh;
+  height:60vh;
   margin-left: 10vw;
   margin-bottom: 10vh;
   margin-top: 10vh;
@@ -776,13 +775,13 @@ button::-moz-focus-inner {
 
 .testimonial-text{
 color: white !important;
-text-shadow: 2px 2px 4px #000000; ;
+text-shadow: 2px 2px 3px #000000; ;
 }
 
 .carousel-control-prev
 {
    margin-bottom: 20vh;
-  margin-top: 20vh;
+  margin-top: 35vh;
   height: 10vh;
   width:3vw;
   margin-left: 10vw;
@@ -794,7 +793,7 @@ text-shadow: 2px 2px 4px #000000; ;
 .carousel-control-next
 {
    margin-bottom: 20vh;
-  margin-top: 20vh;
+  margin-top: 35vh;
    height: 10vh;
   width:3vw;
   margin-right: 7vw;
