@@ -807,6 +807,8 @@ text-shadow: 2px 2px 4px #000000; ;
 /* reviews input */
 .review-input{
   padding:1%;
+  margin-left:150px;
+  margin-right: 150px;
 }
 
 .label{
