@@ -764,7 +764,7 @@ button::-moz-focus-inner {
 /* Carousel reviews */
 
 .carousel-item {
- background-image: linear-gradient(60deg, #df7848, #beac0bd5, #e241bf, #f76394dc);
+ background-image: linear-gradient(45deg, #14274e, #394867 ,#f1f6f9,#9ba4b4, #394867);
  
   color: white !important;
   width:70vw;
@@ -775,6 +775,7 @@ button::-moz-focus-inner {
 
 .testimonial-text{
 color: white !important;
+text-shadow: 2px 2px 4px #000000; ;
 }
 
 .carousel-control-prev
@@ -817,8 +818,8 @@ color: white !important;
 .submit-btn{
    font-size: 30px;
   font-weight: 900;
-  background-image: linear-gradient(60deg, #df7848, #beac0bd5, #e241bf, #f76394dc);
-   box-shadow: 0 2px 7px 0 #df7848;
+  background-image: linear-gradient(45deg, #14274e, #394867 ,#f1f6f9,#9ba4b4, #394867);
+   box-shadow: 0 2px 7px 0 #000;
   color:white;
   padding: 5px 20px;
   height: 60px;
