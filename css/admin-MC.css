@@ -767,8 +767,9 @@ button::-moz-focus-inner {
  background-image: linear-gradient(45deg, #14274e, #394867 ,#f1f6f9,#9ba4b4, #394867);
  
   color: white !important;
-  width:70vw;
-  margin-left: 15vw;
+  width:82vw;
+  height:40vh;
+  margin-left: 10vw;
   margin-bottom: 10vh;
   margin-top: 10vh;
 }
@@ -784,7 +785,7 @@ text-shadow: 2px 2px 4px #000000; ;
   margin-top: 20vh;
   height: 10vh;
   width:3vw;
-  margin-left: 15vw;
+  margin-left: 10vw;
   background:black !important;
   color:white !important;
 }
@@ -796,9 +797,9 @@ text-shadow: 2px 2px 4px #000000; ;
   margin-top: 20vh;
    height: 10vh;
   width:3vw;
-  margin-right: 14vw;
-  background:black !important;
-  color:white !important;
+  margin-right: 7vw;
+  background:rgb(0, 0, 0) !important;
+  color:rgb(255, 255, 255) !important;
 }
 
 /*// carousel reviews */
